@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+
+        <parameter key="iphp.poll.admin.poll.class">Iphp\PollBundle\Admin\PollAdmin</parameter>
+        <parameter key="iphp.poll.admin.poll.controller">SonataAdminBundle:CRUD</parameter>
+        <parameter key="iphp.poll.admin.poll.entity">Application\Iphp\PollBundle\Entity\Poll</parameter>
+
+        <parameter key="iphp.poll.admin.group_title">Site</parameter>
+        <parameter key="iphp.poll.admin.label">Polls</parameter>
+
+        <parameter key="iphp.poll.admin.pollanswer.class">Iphp\PollBundle\Admin\PollAnswerAdmin</parameter>
+        <parameter key="iphp.poll.admin.pollanswer.controller">SonataAdminBundle:CRUD</parameter>
+        <parameter key="iphp.poll.admin.pollanswer.entity">Application\Iphp\PollBundle\Entity\PollAnswer</parameter>
+    </parameters>
+
+    <services>
+
+        <service id="iphp.poll.admin.poll" class="%iphp.poll.admin.poll.class%">
+            <tag name="sonata.admin" manager_type="orm" group="%iphp.poll.admin.group_title%"
+                 label="%iphp.poll.admin.label%"/>
+            <argument/>
+            <argument>%iphp.poll.admin.poll.entity%</argument>
+            <argument>%iphp.poll.admin.poll.controller%</argument>
+
+        </service>
+
+
+        <service id="iphp.poll.admin.pollanswer" class="%iphp.poll.admin.pollanswer.class%">
+            <tag name="sonata.admin" manager_type="orm" show_in_dashboard="false"/>
+            <argument/>
+            <argument>%iphp.poll.admin.pollanswer.entity%</argument>
+            <argument>%iphp.poll.admin.pollanswer.controller%</argument>
+
+        </service>
+
+    </services>
+
+</container>

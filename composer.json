@@ -1,0 +1,41 @@
+{
+    "name": "Iphp/poll-bundle",
+    "type": "bundle",
+    "description": "Polls for symfony 2 project with Sonata Admin backend",
+    "keywords": ["poll","symfony2","sonata admin"],
+    "homepage": "http://zeen.ru",
+    "license": "MIT",
+    "authors": [
+        {
+            "name":"Evgeniy",
+            "email":"zeen@zeen.ru"
+        }
+    ],
+
+    "require":{
+        "symfony/framework-bundle":"~2.2"
+    },
+
+    "require-dev":{
+        "symfony/class-loader": "@stable",
+        "symfony/twig-bundle": "@stable",
+        "symfony/finder": "@stable",
+        "symfony/browser-kit": "@stable",
+        "symfony/css-selector": "@stable",
+        "symfony/form": "@stable",
+        "symfony/validator": "@stable",
+        "symfony/process": "@stable",
+        "symfony/yaml": "@stable",
+        "sensio/framework-extra-bundle": "@stable",
+        "doctrine/doctrine-bundle": "@stable",
+        "doctrine/orm": "@stable"
+    },
+
+    "autoload":{
+        "psr-0":{
+            "Iphp\\PollBundle":""
+        }
+    },
+    "target-dir":"Iphp/PollBundle"
+
+}

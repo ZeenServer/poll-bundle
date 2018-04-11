@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="ru" datatype="plaintext" original="">
+        <body>
+            <trans-unit id="Polls">
+                <source>Polls</source>
+                <target>Голосования</target>
+            </trans-unit>
+            <trans-unit id="Poll">
+                <source>Poll</source>
+                <target>Голосование</target>
+            </trans-unit>
+
+            <trans-unit id="Poll List">
+                <source>Poll List</source>
+                <target>Голосования</target>
+            </trans-unit>
+
+            <trans-unit id="Answers">
+                <source>Answers</source>
+                <target>Ответы</target>
+            </trans-unit>
+
+
+        </body>
+    </file>
+</xliff>

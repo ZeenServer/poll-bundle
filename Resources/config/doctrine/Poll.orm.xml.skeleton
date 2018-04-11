@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+
+    <entity
+            name="Application\Iphp\PollBundle\Entity\Poll"
+            table="poll__poll"
+            repository-class="Application\Iphp\PollBundle\Entity\PollRepository">
+
+        <id name="id" type="integer" column="id">
+            <generator strategy="AUTO"/>
+        </id>
+         <one-to-many field="answers" target-entity="PollAnswer" mapped-by="poll">
+            <cascade>
+               <cascade-all/>
+             </cascade>
+             <order-by>
+                  <order-by-field name="pos" direction="ASC" />
+             </order-by>
+         </one-to-many>
+
+    </entity>
+</doctrine-mapping>
