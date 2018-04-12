@@ -37,5 +37,5 @@
         }
     },
     "target-dir":"Iphp/PollBundle"
-
+    "minimum-stability": "dev"
 }
