@@ -1,6 +1,6 @@
 <?php
 
-namespace Zeen\ZeenPollBundle\Controller;
+namespace Zeen\PollBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Cookie;

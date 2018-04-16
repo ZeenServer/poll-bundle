@@ -2,7 +2,7 @@
 
 
 
-namespace Zeen\ZeenPollBundle\DependencyInjection;
+namespace Zeen\PollBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 

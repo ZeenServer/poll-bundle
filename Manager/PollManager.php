@@ -1,5 +1,10 @@
 <?php
-namespace Zeen\ZeenPollBundle\Manager;
+/**
+ * @author Vitiko <vitiko@mail.ru>
+ */
+
+namespace Zeen\PollBundle\Manager;
+
 
 use Doctrine\ORM\EntityManager;
 use Symfony\Component\HttpFoundation\Cookie;

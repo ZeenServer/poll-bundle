@@ -1,5 +1,5 @@
 {
-    "name": "Zeen/zeen-poll-bundle",
+    "name": "zeen/zeen-poll-bundle",
     "type": "bundle",
     "description": "Polls for symfony 2 project with Sonata Admin backend",
     "keywords": ["poll","symfony2","sonata admin"],

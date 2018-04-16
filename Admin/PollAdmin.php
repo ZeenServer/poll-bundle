@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Zeen\ZeenPollBundle\Admin;
+namespace Zeen\PollBundle\Admin;
 
 use Iphp\CoreBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;

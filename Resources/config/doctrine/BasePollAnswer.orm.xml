@@ -2,7 +2,7 @@
 <doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
                   xsi="http://www.w3.org/2001/XMLSchema-instance"
                   schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
-    <mapped-superclass name="Zeen\ZeenPollBundle\Entity\BasePollAnswer">
+    <mapped-superclass name="Zeen\PollBundle\Entity\BasePollAnswer">
 
 
         <field name="title" type="string" column="title"/>
