@@ -2,7 +2,7 @@
 namespace Zeen\PollBundle\Entity;
 
 
-use Zeen\CoreBundle\Entity\BaseEntityQueryBuilder;
+use Iphp\CoreBundle\Entity\BaseEntityQueryBuilder;
 
 class BasePollQueryBuilder extends BaseEntityQueryBuilder
 {

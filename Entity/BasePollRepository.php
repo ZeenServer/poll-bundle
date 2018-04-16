@@ -3,7 +3,7 @@
 namespace Zeen\PollBundle\Entity;
 
 
-use Zeen\CoreBundle\Entity\BaseEntityRepository;
+use Iphp\CoreBundle\Entity\BaseEntityRepository;
 
 abstract class BasePollRepository extends BaseEntityRepository
 {
