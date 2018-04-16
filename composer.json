@@ -1,5 +1,5 @@
 {
-    "name": "Iphp/poll-bundle",
+    "name": "Iphp/zeen-poll-bundle",
     "type": "bundle",
     "description": "Polls for symfony 2 project with Sonata Admin backend",
     "keywords": ["poll","symfony2","sonata admin"],
@@ -33,9 +33,9 @@
 
     "autoload":{
         "psr-0":{
-            "Iphp\\PollBundle":""
+            "Iphp\\ZeenPollBundle":""
         }
     },
-    "target-dir":"Iphp/PollBundle",
+    "target-dir":"Iphp/ZeenPollBundle",
     "minimum-stability": "dev"
 }
