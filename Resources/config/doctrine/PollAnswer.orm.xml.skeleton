@@ -4,9 +4,9 @@
                   schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
     <entity
-            name="Application\Zeen\PollBundle\Entity\PollAnswer"
+            name="Application\Zeen\ZeenPollBundle\Entity\PollAnswer"
             table="poll__answer"
-            repository-class="Application\Zeen\PollBundle\Entity\PollAnswerRepository">
+            repository-class="Application\Zeen\ZeenPollBundle\Entity\PollAnswerRepository">
 
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO"/>

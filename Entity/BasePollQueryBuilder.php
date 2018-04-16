@@ -1,5 +1,5 @@
 <?php
-namespace Zeen\PollBundle\Entity;
+namespace Zeen\ZeenPollBundle\Entity;
 
 
 use Iphp\CoreBundle\Entity\BaseEntityQueryBuilder;

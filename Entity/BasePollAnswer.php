@@ -1,9 +1,9 @@
 <?php
 
-namespace  Zeen\PollBundle\Entity;
+namespace  Zeen\ZeenPollBundle\Entity;
 
 
-use Zeen\PollBundle\Model\PollAnswer as ModelPollAnswer;
+use Zeen\ZeenPollBundle\Model\PollAnswer as ModelPollAnswer;
 
 abstract class BasePollAnswer extends ModelPollAnswer
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Zeen\PollBundle\Model;
+namespace Zeen\ZeenPollBundle\Model;
 
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints as Assert;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Zeen\PollBundle;
+namespace Zeen\ZeenPollBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
