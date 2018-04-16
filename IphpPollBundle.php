@@ -1,10 +1,10 @@
 <?php
 
-namespace Iphp\ZeenPollBundle;
+namespace Zeen\PollBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class IphpPollBundle extends Bundle
+class ZeenPollBundle extends Bundle
 {
 
 }
