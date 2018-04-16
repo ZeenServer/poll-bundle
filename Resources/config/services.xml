@@ -5,11 +5,11 @@
 
 
     <parameters>
-        <parameter key="iphp.poll.manager.class">Iphp\PollBundle\Manager\PollManager</parameter>
+        <parameter key="Zeen.poll.manager.class">Zeen\PollBundle\Manager\PollManager</parameter>
     </parameters>
 
     <services>
-        <service id="iphp.poll" class="%iphp.poll.manager.class%">
+        <service id="Zeen.poll" class="%Zeen.poll.manager.class%">
              <argument type="service" id="doctrine.orm.entity_manager"></argument>
         </service>
 

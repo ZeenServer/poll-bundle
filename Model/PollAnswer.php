@@ -1,5 +1,5 @@
 <?php
-namespace Iphp\PollBundle\Model;
+namespace Zeen\PollBundle\Model;
 
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -14,7 +14,7 @@ abstract class PollAnswer
 
 
     /**
-     * @var \Iphp\PollBundle\Model\Poll;
+     * @var \Zeen\PollBundle\Model\Poll;
      */
     protected $poll;
 
@@ -59,7 +59,7 @@ abstract class PollAnswer
     }
 
     /**
-     * @param \Iphp\PollBundle\Model\Poll $poll
+     * @param \Zeen\PollBundle\Model\Poll $poll
      */
     public function setPoll($poll)
     {
@@ -68,7 +68,7 @@ abstract class PollAnswer
     }
 
     /**
-     * @return \Iphp\PollBundle\Model\Poll
+     * @return \Zeen\PollBundle\Model\Poll
      */
     public function getPoll()
     {

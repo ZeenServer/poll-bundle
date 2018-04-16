@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Iphp\PollBundle\DependencyInjection;
+namespace Zeen\PollBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
@@ -23,7 +23,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder();
 
-        $node = $treeBuilder->root('iphp_poll')->children();
+        $node = $treeBuilder->root('Zeen_poll')->children();
 
         return $treeBuilder;
     }

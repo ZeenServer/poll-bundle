@@ -5,8 +5,8 @@
         xsi:schemaLocation="http://symfony.com/schema/routing
         http://symfony.com/schema/routing/routing-1.0.xsd">
 
-    <route id="iphp_poll_vote" path="/_poll/vote" methods="GET">
-        <default key="_controller">IphpPollBundle:Poll:Vote</default>
+    <route id="Zeen_poll_vote" path="/_poll/vote" methods="GET">
+        <default key="_controller">ZeenPollBundle:Poll:Vote</default>
     </route>
 
 </routes>

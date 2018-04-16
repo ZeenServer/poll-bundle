@@ -1,9 +1,9 @@
 <?php
 
 
-namespace Iphp\PollBundle\Admin;
+namespace Zeen\PollBundle\Admin;
 
-use Iphp\CoreBundle\Admin\Admin;
+use Zeen\CoreBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;

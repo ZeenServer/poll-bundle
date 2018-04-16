@@ -3,7 +3,7 @@
  * @author Vitiko <vitiko@mail.ru>
  */
 
-namespace Iphp\PollBundle\Manager;
+namespace Zeen\PollBundle\Manager;
 
 
 use Doctrine\ORM\EntityManager;

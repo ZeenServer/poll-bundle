@@ -5,35 +5,35 @@
 
     <parameters>
 
-        <parameter key="iphp.poll.admin.poll.class">Iphp\PollBundle\Admin\PollAdmin</parameter>
-        <parameter key="iphp.poll.admin.poll.controller">SonataAdminBundle:CRUD</parameter>
-        <parameter key="iphp.poll.admin.poll.entity">Application\Iphp\PollBundle\Entity\Poll</parameter>
+        <parameter key="Zeen.poll.admin.poll.class">Zeen\PollBundle\Admin\PollAdmin</parameter>
+        <parameter key="Zeen.poll.admin.poll.controller">SonataAdminBundle:CRUD</parameter>
+        <parameter key="Zeen.poll.admin.poll.entity">Application\Zeen\PollBundle\Entity\Poll</parameter>
 
-        <parameter key="iphp.poll.admin.group_title">Site</parameter>
-        <parameter key="iphp.poll.admin.label">Polls</parameter>
+        <parameter key="Zeen.poll.admin.group_title">Site</parameter>
+        <parameter key="Zeen.poll.admin.label">Polls</parameter>
 
-        <parameter key="iphp.poll.admin.pollanswer.class">Iphp\PollBundle\Admin\PollAnswerAdmin</parameter>
-        <parameter key="iphp.poll.admin.pollanswer.controller">SonataAdminBundle:CRUD</parameter>
-        <parameter key="iphp.poll.admin.pollanswer.entity">Application\Iphp\PollBundle\Entity\PollAnswer</parameter>
+        <parameter key="Zeen.poll.admin.pollanswer.class">Zeen\PollBundle\Admin\PollAnswerAdmin</parameter>
+        <parameter key="Zeen.poll.admin.pollanswer.controller">SonataAdminBundle:CRUD</parameter>
+        <parameter key="Zeen.poll.admin.pollanswer.entity">Application\Zeen\PollBundle\Entity\PollAnswer</parameter>
     </parameters>
 
     <services>
 
-        <service id="iphp.poll.admin.poll" class="%iphp.poll.admin.poll.class%">
-            <tag name="sonata.admin" manager_type="orm" group="%iphp.poll.admin.group_title%"
-                 label="%iphp.poll.admin.label%"/>
+        <service id="Zeen.poll.admin.poll" class="%Zeen.poll.admin.poll.class%">
+            <tag name="sonata.admin" manager_type="orm" group="%Zeen.poll.admin.group_title%"
+                 label="%Zeen.poll.admin.label%"/>
             <argument/>
-            <argument>%iphp.poll.admin.poll.entity%</argument>
-            <argument>%iphp.poll.admin.poll.controller%</argument>
+            <argument>%Zeen.poll.admin.poll.entity%</argument>
+            <argument>%Zeen.poll.admin.poll.controller%</argument>
 
         </service>
 
 
-        <service id="iphp.poll.admin.pollanswer" class="%iphp.poll.admin.pollanswer.class%">
+        <service id="Zeen.poll.admin.pollanswer" class="%Zeen.poll.admin.pollanswer.class%">
             <tag name="sonata.admin" manager_type="orm" show_in_dashboard="false"/>
             <argument/>
-            <argument>%iphp.poll.admin.pollanswer.entity%</argument>
-            <argument>%iphp.poll.admin.pollanswer.controller%</argument>
+            <argument>%Zeen.poll.admin.pollanswer.entity%</argument>
+            <argument>%Zeen.poll.admin.pollanswer.controller%</argument>
 
         </service>
 

@@ -1,8 +1,8 @@
 <?php
-namespace Iphp\PollBundle\Entity;
+namespace Zeen\PollBundle\Entity;
 
 
-use Iphp\CoreBundle\Entity\BaseEntityQueryBuilder;
+use Zeen\CoreBundle\Entity\BaseEntityQueryBuilder;
 
 class BasePollQueryBuilder extends BaseEntityQueryBuilder
 {

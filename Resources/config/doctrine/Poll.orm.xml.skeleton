@@ -4,9 +4,9 @@
                   schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
 
     <entity
-            name="Application\Iphp\PollBundle\Entity\Poll"
+            name="Application\Zeen\PollBundle\Entity\Poll"
             table="poll__poll"
-            repository-class="Application\Iphp\PollBundle\Entity\PollRepository">
+            repository-class="Application\Zeen\PollBundle\Entity\PollRepository">
 
         <id name="id" type="integer" column="id">
             <generator strategy="AUTO"/>

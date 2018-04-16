@@ -2,7 +2,7 @@
 
 
 
-namespace Iphp\PollBundle\DependencyInjection;
+namespace Zeen\PollBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Loader\XmlFileLoader;
 
@@ -14,7 +14,7 @@ use Symfony\Component\Config\Definition\Processor;
 //use Symfony\Component\DependencyInjection\Definition;
 use Sonata\EasyExtendsBundle\Mapper\DoctrineCollector;
 
-class IphpPollExtension extends Extension
+class ZeenPollExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {

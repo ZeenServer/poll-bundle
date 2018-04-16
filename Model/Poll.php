@@ -1,5 +1,5 @@
 <?php
-namespace Iphp\PollBundle\Model;
+namespace Zeen\PollBundle\Model;
 
 use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -39,7 +39,7 @@ abstract class Poll
     protected $date;
 
     /**
-     * @var \Iphp\PollBundle\Model\PollAnswer[];
+     * @var \Zeen\PollBundle\Model\PollAnswer[];
      */
     protected $answers;
 
@@ -221,7 +221,7 @@ abstract class Poll
 
 
     /**
-     * @return \Iphp\PollBundle\Model\PollAnswer[]
+     * @return \Zeen\PollBundle\Model\PollAnswer[]
      */
     public function getAnswers()
     {
